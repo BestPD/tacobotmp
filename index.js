@@ -197,4 +197,4 @@ let commandfile = bot.commands.get(cmd.slice(prefix.length));
 // }
 //
 
-bot.login(botconfig.token);
+client.login(process.env.BOT_token);
